@@ -10,8 +10,18 @@ div {
   margin-right: 15px;
   margin-left: 15px;
 }
+
+
 .col-1 {width: 60%;}
 .col-2 {width: 20%;}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
 </style>
 
 
