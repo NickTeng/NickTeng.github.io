@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<style>
+
+div {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+
+.col-1 {width: 60%;}
+.col-2 {width: 20%;}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 90%;
+  }
+}
+
+</style>
+
+
+<title>
+	Yikai Teng
+</title>
+
+
+<body>
+	
+	<div class="w3-display-container">
+		<div class="col-1 w3-left">
+			<div class="w3-container" style="border-bottom-style:groove">
+				<h1>Yikai Teng</h1>
+				<p><a href="cv.pdf" download>cv</a></p>
+			</div>
+			<div class="w3-container" style="border-bottom-style:groove">
+				<h2>Education</h2>
+				<p>Bachelor: University of Illinois at Urbana Champaign. FA2018-</p>
+			</div>
+			<div class="w3-container" style="border-bottom-style:groove">
+				<h2>Teaching Experience</h2>
+				<p>FA2020: Course aide for CS 357: Numerical Methods. <a href="https://courses.grainger.illinois.edu/cs357/fa2020/">Webpage</a></p>
+				<p>SP2020: Course aide for CS 357: Numerical Methods. <a href="https://courses.grainger.illinois.edu/cs357/sp2020/">Webpage</a></p>
+				<p>FA2019: Course aide for CS 357: Numerical Methods. <a href="https://courses.grainger.illinois.edu/cs357/fa2019/">Webpage</a></p>
+			
+			</div>
+			<div class="w3-container" style="border-bottom-style:groove">
+				<h2>External Links</h2>
+				<p><a href="https://demonstrations.wolfram.com/SimulatingTheCouponCollectorProblem/">Demonstration for Coupon Collector Problem</a></p>
+				<p><a href="http://demonstrations.wolfram.com/TwoDimensionalGeneralizedArnoldCatMap/">Demonstration for Cat Map: 2D Version</a></p>
+				<p><a href="{% pages/fractals.html %}">Some fractals</a></p>
+			</div>
+		</div>
+		<div class="w3-card col-2 w3-right">
+			<img src="nick.jpg" alt="Person" style="width:100%">
+			<section class="w3-container" style="max-width:600px">
+				<h2>Yikai Teng</h2>
+				<p>Address: 212 E Green St, Champaign, IL, 61820</p>
+				<p>Phone: 2173051137</p>
+				<p>Email: yikait2@illinois.edu</p>
+			</section>
+		</div>
+	</div>
+
+</body>
+</html>
